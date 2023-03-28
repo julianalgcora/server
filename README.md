@@ -31,7 +31,7 @@ registro de serviços do servidor Eureka. Dado que o uso da aplicação vai ser 
 `eureka.client.fetch-registry=false`
 * Esta configuração é usada para definir a URL do servidor Eureka. O cliente Eureka usará essa URL para se conectar ao 
 servidor Eureka e registrar ou descobrir serviços.
-eureka.client.serviceUrl.defaultZone=http://localhost:8081/eureka`
+`eureka.client.serviceUrl.defaultZone=http://localhost:8081/eureka`
 3) Anotar a classe principal da sua aplicação com a anotação `@EnableEurekaServer`
 4) Acessar a página http://localhost:8081 no navegador para verificar se o servidor Eureka está em execução. 
 Você deve ver a interface do usuário do Eureka, que mostra informações sobre os serviços registrados e as instâncias 
